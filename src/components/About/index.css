@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.responsive-container-light-theme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  background-color: white;
+}
+
+.responsive-container-dark-theme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  background-color: black;
+}
+
+.images {
+  width: 100px;
+}
+
+.para-light {
+  color: #171f46;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.para-dark {
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}

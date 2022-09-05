@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.navbar-container-light {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: solid 2px #dcdcdc;
+}
+
+.navbar-container-dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #333333;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: solid 2px #dcdcdc;
+}
+
+.website-logo {
+  width: 50px;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.link-light {
+  text-decoration: none;
+  color: #171f46;
+}
+
+.link-dark {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.item-light-theme {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.theme-button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.theme-img {
+  width: 40px;
+}
